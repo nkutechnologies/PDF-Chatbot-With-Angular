@@ -1,0 +1,86 @@
+/* Add your global styles here */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 500px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 8px;
+  /* margin-right: 10px; */
+}
+
+/* Chat history styles */
+div {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+/* Chat input styles */
+input[type="text"] {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+/* .button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+} */
+
+.user-message {
+  text-align: right;
+}
+
+.chatbot-message {
+  text-align: left;
+}
+
+.message-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 5px;
+}
+
+.input-group-text {
+  margin-right: 4px;
+}
+
+.message-input-container button {
+  margin-right: 5px;
+}
