@@ -42,7 +42,7 @@ ng serve
 Visit the provided URL (http://localhost:4200/chat) in your web browser to access the PDF ChatBot application.
 
 ### Deployed URL
-Check out the live version of the app deployed on [Streamlit Cloud at [https://PDF-Bot.com.](https://streammlit-5n3cgfgflpm6gxlyyhzyzz.streamlit.app/)
+Check out the live version of the app deployed at [https://pdfangular.com.](https://pdf-chatbot-with-angular.vercel.app/)
 
 
 
